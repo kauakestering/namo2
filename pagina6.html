@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para melhorar depois de alguma briga</title>
+    <link rel="stylesheet" href="./pagina1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Oi meu amor.</strong>
+                        <p>
+                            Amor, se entrou aqui, eh por causa que precisa de uma motivacao, amor, você é incrível, capaz de conquistar qualquer desafio. Estou sempre ao seu lado, torcendo por você. Acredite em si mesma como eu acredito em você.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
